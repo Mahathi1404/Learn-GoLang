@@ -1,0 +1,12 @@
+*.exe
+
+*.log
+
+/bin/
+
+*.out
+
+.vscode/
+
+/pkg/
+
