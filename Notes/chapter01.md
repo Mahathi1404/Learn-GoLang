@@ -96,6 +96,7 @@ my_project/  <-- module root (has go.mod)
 │   └── helper.go    <-- package utils
 └── models/          <-- PACKAGE DIRECTORY
     └── user.go      <-- package models
+```
 
 ## 3.3 Project initialization
 

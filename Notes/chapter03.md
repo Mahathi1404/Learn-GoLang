@@ -13,13 +13,13 @@ A pointer is a variable that stores memory address of another variable.
 
 Address-of operator (`&`), gives memory address of a variable.
 Example:
-    ```go
-    x := 42
-    p := &x //`p` now holds address of `x`
-    ```
+```go
+x := 42
+p := &x //`p` now holds address of `x`
+```
 
 Dereference (`*`) : Gives the value stored at specific memory address.
 Example:
-    ```go
-    *p // prints 42
-    ```
+```go
+*p // prints 42
+```
