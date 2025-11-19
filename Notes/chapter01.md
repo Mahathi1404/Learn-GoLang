@@ -88,6 +88,7 @@ It is defined by the file `go.mod`, present in the top-level directory.
 
 ## This is how a Go project look like.
 
+```text
 my_project/  <-- module root (has go.mod)
 ├── go.mod
 ├── main.go          <-- package main
@@ -111,7 +112,7 @@ The above command will create go.mod file inside the directory
 
 Importing the packages:
 
-> Alias the 'utils' package from the long module path to 'us':
+Alias the 'utils' package from the long module path to 'us' like below:
 
 import us "github.com/yourusername/my_project/utils" 
 **Usage inside code:**

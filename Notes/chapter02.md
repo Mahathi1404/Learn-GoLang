@@ -79,7 +79,7 @@ comp:= "HP"
 var aRune rune = '@' //rune represents character in UTF-8, it takes 32bits
 ```
 
-### Default Values:
+### Default Values(Zero):
 - Numeric types: `0`
 - `bool`: `false`
 - `string`: `""` (empty string)
@@ -241,7 +241,7 @@ _ _ _ 51
 _ _ _ 11
 4 3 2 1
 
-QA
+ Q  A
 51 11
 ```
 
@@ -251,6 +251,9 @@ QA
 - **Strings**: `"amount is $43\n"`
 - **Raw Literal Strings**: `` `Let's code in "Golang"` ``
 
+## Nil type
+
+The `nil` value in Go specifies a particular value for uninitialized pointer, function and other types.
 
 ## 4. Control Flow
 
