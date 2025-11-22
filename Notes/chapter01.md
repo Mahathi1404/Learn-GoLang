@@ -120,6 +120,8 @@ import us "github.com/yourusername/my_project/utils"
 // Usage inside code:
 us.HelperFunction()
 
+Note: if you are creating a new library file, always put it in a directory before calling it from other programs
+
 `go get <package_name>` is used to add dependencies to your module (as of Go 1.17+, use `go install <package>@latest` to install executables globally).
 `go mod tidy` removes unused dependencies, adds any missing ones, and ensures both `go.mod` and `go.sum` files are accurate.
 

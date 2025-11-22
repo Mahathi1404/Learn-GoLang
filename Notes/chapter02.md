@@ -386,9 +386,9 @@ func sum(nums ...int) int {
 //Here ...int tells that list of intergers will be passed
 ```
 
-#### Function literals
+### Function literals
 
-Function can receive other functions as arguments, or assigned to a variable. Hence it is called First class citizens
+Function can receive other functions as arguments, or assigned to a variable. Hence it is called First class citizens.
 Go permits anonymous functions and these functions can be closures.
 
 A function literal means a function structure without a name after func, mainly defining a function locally. When this function literal is used without giving it the name, it becomes anonymous function.
@@ -397,14 +397,14 @@ A function literal means a function structure without a name after func, mainly 
 // The literal: func() { ... }
 func() {
     fmt.Println("I run right away and have no name.")
-}() // The parentheses here execute the function immediately.
+}() // The parentheses here execute the function immediately. This is called "anonymous self-executing function(func(){...}())"
 //You write it, run it once, and forget about it. It’s useful for quick, isolated tasks.
 ```
 
-If anonymous function capture variables, it is a closure
+If anonymous function capture variables from its surounding(outside its function body), it is a closure
 
 Closures can be understood this way. Most variables are public which are present in main function or the package which can be accessed by anyone. Closures create a private, personal workspace for its data and only closure itself can access or change the data.
 
-It does it via function that remembers and protects its environment(the data) even after the function that created it is gone.
+It does it via function that remembers and protects its environment(the data) even after the function that created it, is gone.
 
 A closure is a block of code plus a set of external variables (the state). Both parts are treated as a single object in memory.
